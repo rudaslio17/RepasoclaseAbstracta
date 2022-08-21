@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Ingresar el lado para el cuadro 2:");
         lado=x.nextDouble();
         Cuadrado c2=new  Cuadrado(color,lado);
-        System.out.println("El area del cuadrado2 es:"+c2.calcularArea());
+        System.out.println("El area del cuadrado2 es 44:"+c2.calcularArea());
         System.out.println("\nEl Color del cuadrado2 esto es:"+c2.getColor());
         Triangulo t1=new Triangulo("Rojo",5,4);
         System.out.println("\n El area del triangulo es:"+t1.calcularArea());
